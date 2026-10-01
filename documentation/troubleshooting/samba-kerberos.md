@@ -1,40 +1,50 @@
-# Caso ilustrativo: logon Samba AD e relógio
+# Problema
 
-Ambiente fictício. Realm `EXAMPLE.LOCAL`. Host `file-01.example.lan`.
+Exemplo didático baseado em situações comuns de infraestrutura. Realm fictício `EXAMPLE.LOCAL`. Host `file-01.example.lan`.
 
-## 1. Alarme
+## Sintoma
 
 Usuários não acessam o compartilhamento. A mensagem fala em autenticação, não em permissão de pasta.
 
-## 2. O que falhou
+## Contexto
 
-A emissão de ticket Kerberos no membro `file-01.example.lan`. O share é o lugar onde o sintoma aparece.
+A VM ficou desligada e voltou depois de uma restauração. O sintoma começou nesse retorno. A ACL do share não foi alterada.
 
-## 3. Situação
+## Evidências
 
-A VM tinha ficado desligada e foi religada depois de uma restauração. O sintoma começou nesse retorno, não depois de uma mudança de ACL.
-
-## 4. Evidências
-
-- Diferença de horário maior que cinco minutos entre o membro e o controlador de domínio de laboratório
+- Diferença de horário maior que cinco minutos entre o membro e o controlador de laboratório
 - Log do Kerberos com erro de skew (`KRB5KRB_AP_ERR_SKEW`)
-- Resolução do nome do realm continua correta
-- A ACL do share não foi alterada
+- O nome do realm continua resolvendo
+- A ACL do compartilhamento não mudou
 
-## 5. Causa
+## Hipóteses
 
-Desvio de relógio. O Kerberos recusa o ticket quando a diferença passa da tolerância. Senha e grupo, nesse caso, nem chegaram a ser avaliados.
+- Senha ou grupo
+- Relógio
+- ACL do share
 
-## 6. Correção
+Senha e ACL só entram se o ticket for emitido.
 
-Sincronizar o horário com a fonte NTP do laboratório e confirmar que a VM não volta com o relógio atrasado a cada boot. Só então, se o logon ainda falhar, olhar conta e ACL.
+## Investigação
 
-## 7. Validação
+Comparar os relógios, ler o erro do Kerberos e confirmar que a resolução do realm está estável.
 
-Horários alinhados, obtenção de ticket bem-sucedida e acesso ao share de exemplo com a conta de teste.
+## Causa
 
-## 8. Documentação
+Desvio de relógio. O Kerberos recusa o ticket quando a diferença passa da tolerância.
 
-Anotar o desvio encontrado, a fonte de tempo e o fato de a restauração ter sido o gatilho. Restauração de VM de diretório entra na lista de checagens de horário.
+## Correção
 
-Não há keytab, senha nem `smb.conf` real neste caso.
+Sincronizar o horário com a fonte NTP do laboratório e confirmar que a VM não volta atrasada a cada boot.
+
+## Validação
+
+Relógios alinhados, ticket obtido e acesso ao share de exemplo com a conta de teste.
+
+## Prevenção
+
+Depois de restaurar uma VM de diretório, horário entra na lista de checagem antes de qualquer teste de senha.
+
+## Lições aprendidas
+
+O compartilhamento é onde o sintoma aparece. A causa, neste caso, está no relógio. Não há keytab, senha nem `smb.conf` real neste exemplo.

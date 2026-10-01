@@ -20,9 +20,18 @@ O monitor observa. Ele não substitui o backup, o proxy nem o diretório.
 
 ## 4. Tecnologias
 
-O conceito conversa com Linux, logs, syslog, dashboards (Grafana entre as ferramentas de visualização), checagem de serviço e registro de backup. A stack fechada da aplicação não é detalhada aqui, para não transformar documentação pública em mapa de um ambiente.
+PHP, JavaScript, APIs, JSON, Linux, monitoramento e dashboards. Grafana entra quando o painel é feito nele. A aplicação fechada não é publicada aqui, para o texto não virar mapa de um ambiente.
 
-## 5. Implementação
+## 5. Funcionalidades
+
+- Disponibilidade de serviço, não só de ping do host
+- Backup com presença, idade e tamanho, não só código de saída do job
+- Internet e VPN como caminhos distintos
+- Logs resumidos, sem linha sensível
+- Indicadores com limiar escrito
+- Alerta com dono
+
+## 6. Implementação
 
 O que este repositório mostra são as verificações que alimentam um painel desse tipo:
 
@@ -34,15 +43,15 @@ O que este repositório mostra são as verificações que alimentam um painel de
 
 A aplicação do dashboard em si não está neste repositório.
 
-## 6. Segurança
+## 7. Segurança
 
 Sem credencial no painel público, sem IP real, sem log bruto de produção. Detalhe em [docs/seguranca.md](docs/seguranca.md).
 
-## 7. Resultado
+## 8. Resultado
 
 Um lugar para ver o que precisa de ação: serviço fora, backup velho, destino inalcançável, erro crescendo no log. O valor está na triagem, não no gráfico.
 
-## 8. Possíveis melhorias
+## 9. Possíveis melhorias
 
 - Donos explícitos para cada alerta
 - Silêncio programado em janela de manutenção

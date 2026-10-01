@@ -1,23 +1,25 @@
 # Sugestões para o perfil do GitHub
 
-Textos prontos para copiar nas configurações do perfil. Este arquivo não altera o perfil sozinho.
+Textos para copiar nas configurações do perfil. Este arquivo não altera o perfil sozinho.
 
-## Nome
-
-Roberto Jeronimo da Cunha
-
-## Bio
+## Bio curta
 
 Limite do GitHub: 160 caracteres.
 
 ```text
-Coordenador de TI e infraestrutura industrial. Linux, redes, automação e manutenção. Campinas, SP.
+TI e infraestrutura industrial. Manutenção, automação e diagnóstico antes da solução. Campinas, SP.
+```
+
+## Descrição do perfil
+
+```text
+Coordenador de TI e infraestrutura industrial, com atuação desde 1998 e na Planifer desde 2006. Linux, redes, automação e manutenção industrial. O trabalho começa pelo diagnóstico: alarme, situação e evidências.
 ```
 
 ## Descrição do repositório
 
 ```text
-Portfólio técnico de infraestrutura, automação e manutenção industrial.
+Portfólio de infraestrutura, automação, troubleshooting e manutenção industrial.
 ```
 
 ## Localização
@@ -28,17 +30,14 @@ Campinas, São Paulo, Brasil
 
 Planifer Ferramentaria e Estamparia
 
-## Links e contato
+## LinkedIn
 
-- LinkedIn: https://www.linkedin.com/in/robertojeronimo/
-- E-mail: beto1979@gmail.com
-- E-mail: roberto@cunha.net.br
-- E-mail: beto1979@outlook.com
-- Telefone: (19) 99255-9334
+https://www.linkedin.com/in/robertojeronimo/
 
-## O que continua de fora
+## E-mail profissional
 
-- documento pessoal
-- nome de cliente
-- topologia e endereço interno
-- configuração real de serviço
+roberto@cunha.net.br
+
+## O que fica de fora do perfil público
+
+Telefone, documentos, nome de cliente, topologia interna e configuração real de serviço.

@@ -2,6 +2,17 @@
 
 A infraestrutura e a manutenção se encontram no cadastro, no horário e no histórico. Sem isso, o alarme da máquina e a ordem de serviço não falam da mesma coisa.
 
+Desenho genérico de passagem. Não é a rede de nenhuma organização.
+
+```mermaid
+flowchart LR
+  user[Usuário] --> net[Rede]
+  net --> fw[Firewall]
+  fw --> svc[Serviços]
+  svc --> db[Banco]
+  svc --> mon[Monitoramento]
+```
+
 ```mermaid
 flowchart LR
   subgraph ti [Infraestrutura]

@@ -15,16 +15,16 @@ Registrar máquina, TAG, plano preventivo, corretiva, ordem de serviço, peça, 
 ## 3. Arquitetura
 
 ```mermaid
-flowchart LR
-  asset[Máquina e TAG]
-  plan[Plano preventivo]
-  wo[Ordem de serviço]
-  hist[Histórico]
-  kpi[MTBF, MTTR, OEE]
-  asset --> plan --> wo --> hist --> kpi
+flowchart TD
+  machine[Máquina] --> tag[TAG]
+  tag --> plan[Plano de manutenção]
+  plan --> wo[Ordem de serviço]
+  wo --> exec[Execução]
+  exec --> hist[Histórico]
+  hist --> kpi[Indicadores]
 ```
 
-O detalhe está em [architecture.md](architecture.md). As fórmulas, com o cuidado de não apresentar número de planta, estão em [docs/indicadores.md](docs/indicadores.md).
+O fluxo cobre preventiva, corretiva, peças, estoque e os indicadores MTBF, MTTR e OEE. Nenhuma medida de fábrica é publicada. As fórmulas estão em [docs/indicadores.md](docs/indicadores.md). O modelo de entidades está em [architecture.md](architecture.md).
 
 ## 4. Tecnologias
 

@@ -1,12 +1,14 @@
 # Roberto Jeronimo da Cunha
 
-**Coordenador de TI e Infraestrutura Industrial · Linux · Redes · Segurança da Informação · Python · PHP · Automação Industrial**
+**TI & Infraestrutura | Manutenção Industrial | Automação | Troubleshooting**
+
+Trabalho com infraestrutura de TI e manutenção industrial desde 1998, e na Planifer Ferramentaria e Estamparia desde março de 2006. A atuação junta Linux, redes, automação e o chão de fábrica: elétrica, ar comprimido, máquinas e manutenção.
+
+O diagnóstico vem antes da troca. Alarme, situação e evidências definem a causa. A correção entra depois.
 
 Campinas, São Paulo, Brasil
 
-[English](README.en.md) · [LinkedIn](https://www.linkedin.com/in/robertojeronimo/) · beto1979@gmail.com · roberto@cunha.net.br · (19) 99255-9334
-
-Trabalho com infraestrutura de TI e manutenção industrial. Na [Planifer Ferramentaria e Estamparia](#experiencia), desde 2006, a atuação junta administração de servidores Linux, redes, automação e o chão de fábrica. O ponto de partida é sempre o fato observado, não a suposição.
+[English](README.en.md) · [LinkedIn](https://www.linkedin.com/in/robertojeronimo/) · roberto@cunha.net.br
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -19,28 +21,76 @@ Trabalho com infraestrutura de TI e manutenção industrial. Na [Planifer Ferram
 ## Índice
 
 - [Sobre mim](#sobre-mim)
+- [Minha abordagem](#minha-abordagem)
+- [Como eu trabalho](#como-eu-trabalho)
 - [Experiência](#experiencia)
 - [O que eu faço](#o-que-eu-faco)
 - [Tecnologias](#tecnologias)
 - [Projetos](#projetos)
-- [Troubleshooting e resolução de problemas](#troubleshooting)
+- [Troubleshooting](#troubleshooting)
 - [Conhecimento técnico](#conhecimento-tecnico)
 - [Atualmente estudando](#atualmente-estudando)
 - [Formação](#formacao)
 - [Certificações](#certificacoes)
 - [Idiomas](#idiomas)
-- [Como eu trabalho](#como-eu-trabalho)
+- [O que não está publicado](#o-que-nao-esta-publicado)
 - [Repositório](#repositorio)
 
 <a id="sobre-mim"></a>
 
 ## Sobre mim
 
-Bacharel em Ciência da Computação e técnico em Informática Industrial pelo Centro Universitário Salesiano de São Paulo (UNISAL). O trabalho profissional em tecnologia começa em 1998, no suporte de informática, e segue em manutenção eletrônica, infraestrutura e desenvolvimento.
+Bacharel em Ciência da Computação e técnico em Informática Industrial pelo Centro Universitário Salesiano de São Paulo (UNISAL). O percurso passa por suporte, manutenção eletrônica, infraestrutura Linux, Samba Active Directory, desenvolvimento em Python e PHP, e a integração entre TI e manutenção industrial.
 
-Desde março de 2006 estou na Planifer Ferramentaria e Estamparia, em Campinas, entre a infraestrutura de TI e a manutenção industrial. O dia a dia cobre servidores Linux, Samba Active Directory, rede, proxy, VPN, aplicações em Python e PHP, e a integração disso com máquina, manutenção e indicador.
+<a id="minha-abordagem"></a>
 
-Na prática, isso aparece como troubleshooting: ler o alarme, situar o que falhou, reunir evidência e só então corrigir.
+## Minha abordagem
+
+Antes da solução, vem o diagnóstico. Não começo trocando componente nem aplicando correção por tentativa e erro.
+
+```text
+ALARME
+   ↓
+O QUE aconteceu?
+   ↓
+EM QUE situação?
+   ↓
+EVIDÊNCIAS
+   ↓
+CAUSA
+   ↓
+CORREÇÃO
+   ↓
+VALIDAÇÃO
+   ↓
+DOCUMENTAÇÃO
+```
+
+```mermaid
+flowchart TD
+  A[Alarme] --> B[O que aconteceu]
+  B --> C[Em que situação]
+  C --> D[Evidências]
+  D --> E[Causa]
+  E --> F[Correção]
+  F --> G[Validação]
+  G --> H[Documentação]
+```
+
+Antes de agir, identifico quem gerou o alarme, qual equipamento ou serviço, em qual situação, quais evidências existem, o que mudou, qual é a causa provável e como a correção será validada. A hipótese só permanece se os fatos a sustentam.
+
+[Casos didáticos](documentation/troubleshooting/README.md)
+
+<a id="como-eu-trabalho"></a>
+
+## Como eu trabalho
+
+Entender o que a operação precisa e antecipar. A infraestrutura que sustenta a fábrica é uma só: rede elétrica, ar comprimido e TI. Não esperar a máquina ou o serviço parar. Ver o que está se formando e atuar antes que o problema aconteça ou se agrave.
+
+- Ler a necessidade antes de montar a solução
+- Acompanhar elétrica, ar comprimido e TI como partes do mesmo processo
+- Tratar sinal fraco, desvio e recorrência enquanto ainda há tempo de manobra
+- Confirmar com evidência, corrigir a causa e deixar registrado o que foi visto
 
 <a id="experiencia"></a>
 
@@ -52,17 +102,17 @@ Técnico de Manutenção Industrial · Infraestrutura de TI e Automação
 
 Março de 2006 — atual · Campinas e região
 
-- Administração de servidores e migração de serviços críticos para Ubuntu Server com Samba Active Directory
+- Administração e evolução de servidores Linux usados como base de autenticação, arquivos, aplicações, proxy e demais serviços de infraestrutura, com migração de serviços críticos para Ubuntu Server e Samba Active Directory
 - Autenticação centralizada, políticas de acesso e permissões
-- Serviços de e-mail (Postfix), proxy (Squid), VPN (OpenVPN), DNS e compartilhamentos
-- Acesso a informações corporativas reestruturado, com aplicação web no lugar de compartilhamentos expostos
-- NOC para monitoramento contínuo da infraestrutura
-- Aplicações em Python (FastAPI, Selenium) e PHP (HTMX, DataTables), com SQL Server e Supabase
+- Operação de e-mail (Postfix), proxy (Squid), VPN (OpenVPN), DNS e compartilhamentos
+- Reestruturação do acesso a informações corporativas, com aplicação web no lugar de compartilhamentos expostos
+- Implantação de um NOC para monitoramento contínuo da infraestrutura e do desempenho da rede
+- Aplicações em Python (FastAPI, Selenium) e PHP (HTMX, DataTables), integradas a SQL Server e Supabase
 - Ferramentas de monitoramento, inventário, manutenção industrial e integração entre sistemas
 - Automação com PowerShell, logs em JSON/UTF-8 e trilha de auditoria
 - Liderança técnica e mentoria na resolução de incidentes
 - Interface técnica em auditorias de clientes do setor aeroespacial, nos requisitos AS9100 e NADCAP
-- Estudos de viabilidade (CAPEX/OPEX) para infraestrutura e eficiência energética
+- Estudos de viabilidade técnica e financeira (CAPEX/OPEX) para infraestrutura e eficiência energética
 
 ### Liceu Coração de Jesus
 
@@ -72,10 +122,10 @@ Abril de 2002 — março de 2006 · Campinas e região
 
 Continuidade da infraestrutura iniciada na Escola Salesiana São José, na mesma comunidade acadêmica.
 
-- Administração Novell NetWare
+- Administração e sustentação da infraestrutura Novell NetWare
 - Contas de e-mail, usuários e políticas de acesso para mais de 1.000 usuários, entre alunos, professores e equipes administrativas
 - Manutenção preventiva dos laboratórios de informática e suporte aos setores administrativos
-- Imagens padronizadas de sistema operacional para instalação e recuperação
+- Imagens padronizadas de sistema operacional para instalação e recuperação das estações
 
 ### Escola Salesiana São José
 
@@ -83,8 +133,8 @@ Técnico de Manutenção Eletrônica
 
 Setembro de 2001 — abril de 2002 · Campinas e região
 
-- Administração de rede em Novell NetWare
-- Usuários, contas de e-mail e permissões
+- Administração da rede em ambiente Novell NetWare
+- Usuários, contas de e-mail e permissões de acesso
 - Suporte a laboratórios de informática e setores administrativos
 - Manutenção preventiva e corretiva de computadores e periféricos
 
@@ -96,7 +146,7 @@ Janeiro de 2001 — setembro de 2001 · Campinas e região
 
 - Manutenção preventiva e corretiva de computadores e impressoras em garantia
 - Atendimento em laboratório e em campo, para clientes públicos e privados
-- Diagnóstico, troca de componente, teste e restauração dentro do padrão de garantia
+- Diagnóstico, troca de componente, teste funcional e restauração dentro do padrão de garantia
 
 ### Sudeste Serviços de Terceirização Ltda.
 
@@ -107,9 +157,9 @@ Janeiro de 1998 — setembro de 2001 · Campinas e região
 Terceirizado na Secretaria de Informática do TRT da 15ª Região.
 
 - Manutenção preventiva e corretiva de computadores dos setores administrativos e judiciais
-- Suporte remoto e atendimento telefônico
+- Suporte remoto e atendimento telefônico aos usuários
 - Instalação e padronização de estações de trabalho
-- Participação na preparação da infraestrutura para a transição do ano 2000
+- Participação na preparação da infraestrutura de TI para a transição do ano 2000
 
 <a id="o-que-eu-faco"></a>
 
@@ -164,7 +214,7 @@ Terceirizado na Secretaria de Informática do TRT da 15ª Região.
   </tr>
 </table>
 
-JavaScript entra no conjunto usado em aplicações web. Não é o centro da atuação, que está em infraestrutura, automação e manutenção.
+JavaScript entra nas aplicações web. Não é o centro da atuação, que está em infraestrutura, automação e manutenção.
 
 <a id="tecnologias"></a>
 
@@ -204,63 +254,27 @@ CNC · Siemens · Mazak · DMG Mori · Romi · sistemas de manutenção
 
 ## Projetos
 
-Os textos descrevem problema, arquitetura e resultado esperado. Código de aplicação, topologia e dados de operação não são publicados.
+Cases de arquitetura e de rotina. O código das aplicações internas e os dados de operação não são publicados. Os scripts deste repositório são exemplos sanitizados.
 
-### Planifer InfraMonitor
-
-Dashboard para acompanhar a infraestrutura de TI: servidores, disponibilidade, backups, internet, VPN, logs, indicadores e alertas.
-
-[Problema, arquitetura e limites](projects/inframonitor/README.md)
-
-### CMMS / EAM para manutenção industrial
-
-Gestão de máquinas e equipamentos: cadastro, TAG, planos preventivos, corretivas, ordens de serviço, histórico, estoque e indicadores (MTBF, MTTR, OEE).
-
-[Problema, arquitetura e indicadores](projects/cmms/README.md)
-
-### Automação de tarefas administrativas
-
-Rotinas em PowerShell, Python e Bash para consulta de sistema, checagem de disco, serviço, log, alcance de rede e idade de arquivo de backup. Os scripts deste repositório rodam sozinhos, sem depender de uma rede real.
-
-[Exemplos publicáveis](projects/other/README.md)
+| Case | O que resolve |
+|---|---|
+| [InfraMonitor](projects/inframonitor/README.md) | Disponibilidade, backup, internet, VPN, serviços, logs e alertas |
+| [CMMS / EAM](projects/cmms/README.md) | Máquina, TAG, plano, ordem de serviço, histórico e indicadores |
+| [Automação](projects/automation/README.md) | Disco, serviço, log, conectividade, backup e coleta local |
 
 <a id="troubleshooting"></a>
 
-## Troubleshooting e resolução de problemas
+## Troubleshooting
 
-Investigar bem vale mais do que acertar uma troca no escuro. O diagnóstico começa pelo alarme e pelas evidências. A hipótese vem depois, e só permanece se os fatos a sustentam.
+A metodologia está em [Minha abordagem](#minha-abordagem). Os textos abaixo são exemplos didáticos, com nomes e endereços fictícios. Não são incidentes de um ambiente real.
 
-1. Identificar o alarme
-2. Identificar o que está apresentando o problema
-3. Entender em que situação ocorreu
-4. Levantar evidências
-5. Identificar a causa
-6. Corrigir
-7. Validar
-8. Documentar
-
-```mermaid
-flowchart TD
-  A[Alarme] --> B[O que falhou]
-  B --> C[Em que situação]
-  C --> D[Evidências]
-  D --> E[Causa]
-  E --> F[Correção]
-  F --> G[Validação]
-  G --> H[Documentação]
-```
-
-Casos ilustrativos, com nomes e endereços fictícios:
-
-- [Linux](documentation/troubleshooting/linux.md)
+- [Serviço Linux](documentation/troubleshooting/linux-service.md)
 - [Samba / Kerberos](documentation/troubleshooting/samba-kerberos.md)
-- [Windows](documentation/troubleshooting/windows.md)
-- [Redes](documentation/troubleshooting/networking.md)
-- [Backup](documentation/troubleshooting/backup.md)
-- [Banco de dados](documentation/troubleshooting/database.md)
-- [Máquinas industriais](documentation/troubleshooting/industrial-machines.md)
-
-[Método completo](documentation/troubleshooting/README.md)
+- [Conectividade de rede](documentation/troubleshooting/network-connectivity.md)
+- [Falha de backup](documentation/troubleshooting/backup-failure.md)
+- [Logon Windows](documentation/troubleshooting/windows-logon.md)
+- [Banco de dados](documentation/troubleshooting/database-problem.md)
+- [Máquina CNC](documentation/troubleshooting/industrial-machines.md)
 
 <a id="conhecimento-tecnico"></a>
 
@@ -276,7 +290,7 @@ Casos ilustrativos, com nomes e endereços fictícios:
 | Storage | ZFS, backup, recuperação |
 | Desenvolvimento | Python (FastAPI), PHP (HTMX), Bash, PowerShell |
 | Banco de dados | PostgreSQL, SQL Server, Supabase |
-| Industrial | CNC, manutenção, eletrônica |
+| Industrial | CNC, manutenção, eletrônica, elétrica, ar comprimido |
 | Monitoramento | dashboards, logs, alertas |
 | Segurança | hardening, controle de acesso, backups |
 
@@ -330,16 +344,13 @@ Cursos concluídos. A lista com emissor, data e código de credencial está em [
 - Português
 - Inglês, profissional limitado
 
-<a id="como-eu-trabalho"></a>
+<a id="o-que-nao-esta-publicado"></a>
 
-## Como eu trabalho
+## O que não está publicado
 
-Entender o que a operação precisa e antecipar. A infraestrutura que sustenta a fábrica é uma só: rede elétrica, ar comprimido e TI. Não esperar a máquina ou o serviço parar. Ver o que está se formando e atuar antes que o problema aconteça ou se agrave.
+Este GitHub não contém configuração real, credencial, topologia real, dado corporativo, dado de cliente, backup nem informação confidencial.
 
-- Ler a necessidade antes de montar a solução
-- Acompanhar elétrica, ar comprimido e TI como partes do mesmo processo
-- Tratar sinal fraco, desvio e recorrência enquanto ainda há tempo de manobra
-- Confirmar com evidência, corrigir a causa e deixar registrado o que foi visto
+O que está aqui é arquitetura, documentação, código sanitizado, exemplo, diagrama e metodologia. Endereços de laboratório: `example.com`, `192.0.2.0/24`, `198.51.100.0/24`, `203.0.113.0/24` e `10.0.0.0/24`.
 
 <a id="repositorio"></a>
 
@@ -350,12 +361,12 @@ Entender o que a operação precisa e antecipar. A infraestrutura que sustenta a
 | [infrastructure](infrastructure/README.md) | Linux, Samba AD, redes, Proxmox, backup, monitoramento, Squid |
 | [automation](automation/README.md) | Exemplos em PowerShell, Python, Bash e PHP |
 | [industrial](industrial/README.md) | Manutenção, CNC, monitoramento industrial, Indústria 4.0 |
-| [projects](projects/README.md) | InfraMonitor, CMMS e automações |
+| [projects](projects/README.md) | InfraMonitor, CMMS e automação |
 | [documentation](documentation/README.md) | Troubleshooting, arquitetura, procedimentos, estudos |
 | [examples](examples/README.md) | Configurações e diagramas de laboratório |
 
-Os exemplos usam apenas referências de documentação: `example.com`, `192.0.2.0/24`, `198.51.100.0/24`, `203.0.113.0/24` e `10.0.0.0/24`.
+Diagrama genérico de infraestrutura, sem topologia real: [visão entre TI e operação](documentation/architecture/visao-geral.md).
 
 O código de exemplo está sob a licença [MIT](LICENSE).
 
-Textos sugeridos para bio, descrição e links do perfil: [documentation/profile-github.md](documentation/profile-github.md).
+Textos para bio e descrição do perfil: [documentation/profile-github.md](documentation/profile-github.md).

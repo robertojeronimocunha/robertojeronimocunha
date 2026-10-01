@@ -1,21 +1,28 @@
-# Troubleshooting e resolução de problemas
+# Troubleshooting
 
-O diagnóstico começa pelos fatos. Uma hipótese sem evidência é só um palpite, e palpite aplicado em produção aumenta o estrago.
+Antes da solução, vem o diagnóstico. A hipótese sem evidência não vira ação.
 
-## Sequência
-
-1. **Identificar o alarme.** Mensagem, código, sintoma relatado. Anotar a hora.
-2. **Identificar o que apresenta o problema.** Host, serviço, máquina, eixo, link. Um nome só.
-3. **Entender em que situação ocorreu.** Depois de qual mudança, em qual movimento, para qual usuário, em qual rede.
-4. **Levantar evidências.** Log, estado, contador, tamanho de arquivo, desvio de relógio, relato objetivo. Guardar antes de alterar.
-5. **Identificar a causa.** A explicação que os fatos sustentam. Se dois fatos discordam, a causa ainda não fechou.
-6. **Corrigir.** A menor mudança que ataca a causa, com caminho de retorno.
-7. **Validar.** O alarme sumiu e o comportamento esperado voltou. Inclusive o caso que falhava, não um teste vizinho.
-8. **Documentar.** Sintoma, evidência, causa, ação e como validar de novo.
+```text
+ALARME
+   ↓
+O QUE aconteceu?
+   ↓
+EM QUE situação?
+   ↓
+EVIDÊNCIAS
+   ↓
+CAUSA
+   ↓
+CORREÇÃO
+   ↓
+VALIDAÇÃO
+   ↓
+DOCUMENTAÇÃO
+```
 
 ```mermaid
 flowchart TD
-  A[Alarme] --> B[O que falhou]
+  A[Alarme] --> B[O que aconteceu]
   B --> C[Em que situação]
   C --> D[Evidências]
   D --> E[Causa]
@@ -24,14 +31,18 @@ flowchart TD
   G --> H[Documentação]
 ```
 
-## Casos ilustrativos
+## Casos
 
-Todos usam nomes e endereços de laboratório.
+Todos são exemplos didáticos baseados em situações comuns de infraestrutura. Nomes e endereços são fictícios.
 
-- [Linux: disco em /var](linux.md)
-- [Samba / Kerberos: relógio](samba-kerberos.md)
-- [Windows: serviço dependente](windows.md)
-- [Redes: VLAN da porta de acesso](networking.md)
-- [Backup: job verde e arquivo vazio](backup.md)
-- [Banco de dados: conexões esgotadas](database.md)
-- [Máquina CNC: alarme na troca de ferramenta](industrial-machines.md)
+| Caso | Arquivo |
+|---|---|
+| Serviço Linux | [linux-service.md](linux-service.md) |
+| Samba / Kerberos | [samba-kerberos.md](samba-kerberos.md) |
+| Conectividade | [network-connectivity.md](network-connectivity.md) |
+| Backup | [backup-failure.md](backup-failure.md) |
+| Logon Windows | [windows-logon.md](windows-logon.md) |
+| Banco de dados | [database-problem.md](database-problem.md) |
+| Máquina CNC | [industrial-machines.md](industrial-machines.md) |
+
+Cada caso segue sintoma, contexto, evidências, hipóteses, investigação, causa, correção, validação, prevenção e lições aprendidas.

@@ -1,6 +1,6 @@
-# Caso ilustrativo: alarme de CNC na troca de ferramenta
+# Problema
 
-Máquina fictícia, TAG `CNC-LAB-01`. Sem fabricante, modelo ou planta. Não é procedimento de intervenção elétrica.
+Exemplo didático baseado em situações comuns de infraestrutura. Máquina fictícia, TAG `CNC-LAB-01`. Sem fabricante, modelo ou planta. Não é procedimento de intervenção elétrica.
 
 ## 1. Alarme
 
