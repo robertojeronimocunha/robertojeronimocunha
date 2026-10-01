@@ -1,10 +1,12 @@
 # Roberto Jeronimo da Cunha
 
-**Técnico de Manutenção Eletrônica · Gestão de TI e Infraestrutura · Manutenção Industrial · Automação**
+**Coordenador de TI e Infraestrutura Industrial · Linux · Redes · Segurança da Informação · Python · PHP · Automação Industrial**
 
-[English](README.en.md)
+Campinas, São Paulo, Brasil
 
-Trabalho com infraestrutura de TI e manutenção industrial desde 2006. A atuação junta administração de servidores Linux, redes, automação e o chão de fábrica: máquinas, manutenção e a integração entre os dois ambientes. O ponto de partida é sempre o fato observado, não a suposição.
+[English](README.en.md) · [LinkedIn](https://www.linkedin.com/in/robertojeronimo/) · beto1979@gmail.com · roberto@cunha.net.br · (19) 99255-9334
+
+Trabalho com infraestrutura de TI e manutenção industrial. Na [Planifer Ferramentaria e Estamparia](#experiencia), desde 2006, a atuação junta administração de servidores Linux, redes, automação e o chão de fábrica. O ponto de partida é sempre o fato observado, não a suposição.
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -17,6 +19,7 @@ Trabalho com infraestrutura de TI e manutenção industrial desde 2006. A atuaç
 ## Índice
 
 - [Sobre mim](#sobre-mim)
+- [Experiência](#experiencia)
 - [O que eu faço](#o-que-eu-faco)
 - [Tecnologias](#tecnologias)
 - [Projetos](#projetos)
@@ -24,6 +27,8 @@ Trabalho com infraestrutura de TI e manutenção industrial desde 2006. A atuaç
 - [Conhecimento técnico](#conhecimento-tecnico)
 - [Atualmente estudando](#atualmente-estudando)
 - [Formação](#formacao)
+- [Certificações](#certificacoes)
+- [Idiomas](#idiomas)
 - [Como eu trabalho](#como-eu-trabalho)
 - [Repositório](#repositorio)
 
@@ -31,11 +36,80 @@ Trabalho com infraestrutura de TI e manutenção industrial desde 2006. A atuaç
 
 ## Sobre mim
 
-Experiência profissional desde 2006, com formação em Ciência da Computação e formação técnica em Informática Industrial.
+Bacharel em Ciência da Computação e técnico em Informática Industrial pelo Centro Universitário Salesiano de São Paulo (UNISAL). O trabalho profissional em tecnologia começa em 1998, no suporte de informática, e segue em manutenção eletrônica, infraestrutura e desenvolvimento.
 
-O percurso cobre infraestrutura de TI, administração de servidores Linux, redes, segurança operacional, automação de rotinas e desenvolvimento de ferramentas. No ambiente industrial, inclui manutenção eletrônica, máquinas CNC, gestão de manutenção e a integração entre TI e operação.
+Desde março de 2006 estou na Planifer Ferramentaria e Estamparia, em Campinas, entre a infraestrutura de TI e a manutenção industrial. O dia a dia cobre servidores Linux, Samba Active Directory, rede, proxy, VPN, aplicações em Python e PHP, e a integração disso com máquina, manutenção e indicador.
 
 Na prática, isso aparece como troubleshooting: ler o alarme, situar o que falhou, reunir evidência e só então corrigir.
+
+<a id="experiencia"></a>
+
+## Experiência
+
+### Planifer Ferramentaria e Estamparia
+
+Técnico de Manutenção Industrial · Infraestrutura de TI e Automação
+
+Março de 2006 — atual · Campinas e região
+
+- Administração de servidores e migração de serviços críticos para Ubuntu Server com Samba Active Directory
+- Autenticação centralizada, políticas de acesso e permissões
+- Serviços de e-mail (Postfix), proxy (Squid), VPN (OpenVPN), DNS e compartilhamentos
+- Acesso a informações corporativas reestruturado, com aplicação web no lugar de compartilhamentos expostos
+- NOC para monitoramento contínuo da infraestrutura
+- Aplicações em Python (FastAPI, Selenium) e PHP (HTMX, DataTables), com SQL Server e Supabase
+- Ferramentas de monitoramento, inventário, manutenção industrial e integração entre sistemas
+- Automação com PowerShell, logs em JSON/UTF-8 e trilha de auditoria
+- Liderança técnica e mentoria na resolução de incidentes
+- Interface técnica em auditorias de clientes do setor aeroespacial, nos requisitos AS9100 e NADCAP
+- Estudos de viabilidade (CAPEX/OPEX) para infraestrutura e eficiência energética
+
+### Liceu Coração de Jesus
+
+Técnico de Manutenção Eletrônica
+
+Abril de 2002 — março de 2006 · Campinas e região
+
+Continuidade da infraestrutura iniciada na Escola Salesiana São José, na mesma comunidade acadêmica.
+
+- Administração Novell NetWare
+- Contas de e-mail, usuários e políticas de acesso para mais de 1.000 usuários, entre alunos, professores e equipes administrativas
+- Manutenção preventiva dos laboratórios de informática e suporte aos setores administrativos
+- Imagens padronizadas de sistema operacional para instalação e recuperação
+
+### Escola Salesiana São José
+
+Técnico de Manutenção Eletrônica
+
+Setembro de 2001 — abril de 2002 · Campinas e região
+
+- Administração de rede em Novell NetWare
+- Usuários, contas de e-mail e permissões
+- Suporte a laboratórios de informática e setores administrativos
+- Manutenção preventiva e corretiva de computadores e periféricos
+
+### A. Carvalho & Souza Ltda
+
+Técnico de computador
+
+Janeiro de 2001 — setembro de 2001 · Campinas e região
+
+- Manutenção preventiva e corretiva de computadores e impressoras em garantia
+- Atendimento em laboratório e em campo, para clientes públicos e privados
+- Diagnóstico, troca de componente, teste e restauração dentro do padrão de garantia
+
+### Sudeste Serviços de Terceirização Ltda.
+
+Auxiliar de Serviços Gerais
+
+Janeiro de 1998 — setembro de 2001 · Campinas e região
+
+Terceirizado na Secretaria de Informática do TRT da 15ª Região.
+
+- Manutenção preventiva e corretiva de computadores dos setores administrativos e judiciais
+- Suporte remoto e atendimento telefônico
+- Instalação e padronização de estações de trabalho
+- Participação na preparação da infraestrutura para a transição do ano 2000
 
 <a id="o-que-eu-faco"></a>
 
@@ -104,19 +178,19 @@ Linux · Ubuntu Server · Windows Server · Windows
 
 ### Infraestrutura
 
-Samba AD · DNS · DHCP · Nginx · Squid · Proxmox · ZFS
+Samba AD · DNS · DHCP · Postfix · Nginx · Squid · Proxmox · ZFS
 
 ### Redes
 
-MikroTik · VLAN · VPN · TCP/IP · Routing · Switching
+MikroTik · VLAN · OpenVPN · TCP/IP · Routing · Switching
 
 ### Desenvolvimento
 
-Python · PHP · PowerShell · Bash · JavaScript · SQL
+Python (FastAPI) · PHP (HTMX) · PowerShell · Bash · JavaScript · SQL
 
 ### Bancos de dados
 
-PostgreSQL · SQL Server
+PostgreSQL · SQL Server · Supabase
 
 ### Monitoramento
 
@@ -197,11 +271,11 @@ Casos ilustrativos, com nomes e endereços fictícios:
 | Linux | Ubuntu Server, serviços, logs, systemd |
 | Windows | Windows Server, PowerShell, GPO |
 | Active Directory | Samba AD, DNS, Kerberos |
-| Networking | TCP/IP, VLAN, VPN, routing |
+| Networking | TCP/IP, VLAN, OpenVPN, routing |
 | Virtualização | Proxmox, máquinas virtuais |
 | Storage | ZFS, backup, recuperação |
-| Desenvolvimento | Python, PHP, Bash, PowerShell |
-| Banco de dados | PostgreSQL, SQL Server |
+| Desenvolvimento | Python (FastAPI), PHP (HTMX), Bash, PowerShell |
+| Banco de dados | PostgreSQL, SQL Server, Supabase |
 | Industrial | CNC, manutenção, eletrônica |
 | Monitoramento | dashboards, logs, alertas |
 | Segurança | hardening, controle de acesso, backups |
@@ -228,11 +302,33 @@ Temas em estudo. Conclusão e instituição não são afirmadas quando essa info
 
 ## Formação
 
-- Bacharelado em Ciência da Computação
-- Técnico em Informática Industrial
+- Bacharelado em Ciência da Computação, Centro Universitário Salesiano de São Paulo (UNISAL), 2004–2008
+- Técnico em Informática Industrial, UNISAL, 2002–2004
 - MBA / pós-graduação em Gestão da Manutenção, em andamento
 
-Instituição, ano e certificado não são informados aqui.
+<a id="certificacoes"></a>
+
+## Certificações
+
+Cursos concluídos. A lista com emissor, data e código de credencial está em [documentation/certificacoes.md](documentation/certificacoes.md).
+
+- Formação para a Primeira Liderança, FM2S, 2025
+- Comunicação Não Violenta, Comunicação Assertiva e Inteligência Emocional, FM2S, 2025
+- Excel Corporativo do Básico ao Avançado, Supernova Treinamentos, 2018
+- NR-35 — Trabalho em Altura, Planifer, 2012
+- Controladores Lógicos Programáveis, UNISAL, 2002
+- Planejamento e Controle da Manutenção, SigaConsulting, 2007
+- Manutenção mecânica e eletro-eletrônica, Siemens 810D, ROMI, 2008
+- Redução de gastos em energia elétrica, CIESP Campinas, 2010
+- Manutenção elétrica e manutenção mecânica, INDEX, 2011
+- Aplicação e manutenção de rolamentos industriais, Radial Rolamentos, 2018
+
+<a id="idiomas"></a>
+
+## Idiomas
+
+- Português
+- Inglês, profissional limitado
 
 <a id="como-eu-trabalho"></a>
 

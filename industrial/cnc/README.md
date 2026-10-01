@@ -1,6 +1,6 @@
 # CNC
 
-Diagnóstico em máquinas CNC. Fabricantes presentes nesse contexto: Siemens, Mazak, DMG Mori e Romi. Modelos, plantas e programas não são citados.
+Diagnóstico em máquinas CNC. O curso documentado é Manutenção Mecânica e Eletro-Eletrônica das linhas Discovery Siemens 810D V1.0/V1.1, emitido pela ROMI em junho de 2008. O contexto industrial também inclui Mazak, DMG Mori e Romi. Plantas, parâmetros e programas de máquina não são publicados.
 
 ## Ordem de leitura de um alarme
 

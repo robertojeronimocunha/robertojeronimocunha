@@ -1,6 +1,6 @@
 # Sugestões para o perfil do GitHub
 
-Este arquivo não altera o perfil. São textos prontos para copiar, se fizer sentido. Nenhum link, cidade ou e-mail foi inventado.
+Textos prontos para copiar nas configurações do perfil. Este arquivo não altera o perfil sozinho.
 
 ## Nome
 
@@ -11,7 +11,7 @@ Roberto Jeronimo da Cunha
 Limite do GitHub: 160 caracteres.
 
 ```text
-Infraestrutura de TI, Linux, automação e manutenção industrial. Diagnóstico a partir de evidências desde 2006.
+Coordenador de TI e infraestrutura industrial. Linux, redes, automação e manutenção. Campinas, SP.
 ```
 
 ## Descrição do repositório
@@ -22,25 +22,23 @@ Portfólio técnico de infraestrutura, automação e manutenção industrial.
 
 ## Localização
 
-Não informada. Preencher no perfil somente se quiser tornar a cidade pública.
+Campinas, São Paulo, Brasil
 
-## Empresa e site
+## Empresa
 
-Não informados. Deixar em branco até existir um texto que possa ser publicado.
+Planifer Ferramentaria e Estamparia
 
-## Links profissionais
+## Links e contato
 
-Não há URLs confirmadas. Placeholders, para substituir só quando o endereço for real:
+- LinkedIn: https://www.linkedin.com/in/robertojeronimo/
+- E-mail: beto1979@gmail.com
+- E-mail: roberto@cunha.net.br
+- E-mail: beto1979@outlook.com
+- Telefone: (19) 99255-9334
 
-- Site: `https://example.com`
-- LinkedIn: `https://www.linkedin.com/in/SEU-USUARIO`
-- E-mail público: `usuario@example.com`
+## O que continua de fora
 
-## O que não colocar no perfil público
-
-- telefone pessoal
-- e-mail privado
-- documentos
+- documento pessoal
 - nome de cliente
-- endereço de empresa
-- detalhes de infraestrutura
+- topologia e endereço interno
+- configuração real de serviço
