@@ -1,0 +1,16 @@
+flowchart LR
+  subgraph ti [Infraestrutura]
+    id[Identidade e DNS]
+    vm[Virtualização]
+    mon[Monitoramento]
+    bak[Backup]
+  end
+  subgraph op [Operação]
+    cnc[Máquina e TAG]
+    cmms[CMMS]
+    kpi[Indicadores]
+  end
+  id --> cmms
+  cnc --> cmms --> kpi
+  mon --> cmms
+  vm --> bak

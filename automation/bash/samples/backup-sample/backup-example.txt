@@ -1,0 +1,2 @@
+Arquivo fictício para ensaio do backup-check.sh.
+Não é um backup e não contém dado de nenhum ambiente.

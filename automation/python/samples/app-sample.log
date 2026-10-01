@@ -1,0 +1,11 @@
+2026-04-12T08:00:01Z INFO  app=lab-api msg="serviço iniciado" host=app-01.example.com
+2026-04-12T08:01:14Z INFO  app=lab-api msg="consulta concluída" duration_ms=18
+2026-04-12T08:02:40Z WARNING app=lab-api msg="tempo de resposta acima de 500 ms" duration_ms=640
+2026-04-12T08:03:02Z INFO  app=lab-api msg="consulta concluída" duration_ms=22
+2026-04-12T08:05:11Z ERROR app=lab-api msg="falha ao abrir conexão" db=lab.example.com
+2026-04-12T08:05:12Z ERROR app=lab-api msg="tentativa repetida esgotada" attempt=3
+2026-04-12T08:06:00Z INFO  app=lab-api msg="pool restabelecido"
+2026-04-12T08:07:33Z WARNING app=lab-api msg="disco de log em 80 por cento" mount=/var/log
+2026-04-12T08:08:01Z INFO  app=lab-api msg="consulta concluída" duration_ms=15
+2026-04-12T08:09:44Z ERROR app=lab-api msg="timeout de upstream" upstream=192.0.2.10:8080
+2026-04-12T08:10:02Z INFO  app=lab-api msg="consulta concluída" duration_ms=19

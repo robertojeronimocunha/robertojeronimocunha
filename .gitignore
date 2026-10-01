@@ -1,0 +1,57 @@
+# Ambiente e segredos
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+*.ovpn
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.kdbx
+credentials*
+secrets*
+*.secret
+
+# Backups, dumps e imagens de disco
+*.bak
+*.dump
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.vmdk
+*.qcow2
+*.img
+*.iso
+backup/
+backups/
+
+# Logs locais; a amostra versionada é exceção
+*.log
+!automation/python/samples/app-sample.log
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+.pytest_cache/
+
+# PHP
+vendor/
+
+# Editores e sistema
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
