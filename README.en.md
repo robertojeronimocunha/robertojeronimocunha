@@ -318,15 +318,12 @@ Completed courses. Issuer, date, and credential code are listed in [documentatio
 
 ## How I work
 
-- Understand the problem before acting
-- Work from evidence
-- Document what was seen and what was done
-- Automate a repeated task when that reduces error
-- Look for the cause, not only the symptom
-- Reduce downtime with a fix that holds
-- Prefer a solution that is simple to operate and to maintain
-- Connect technology to the operation
-- Turn a recurring problem into a process
+Understand what the operation needs, and act ahead of it. The infrastructure that keeps the plant running is one system: electrical power, compressed air, and IT. Do not wait for the machine or the service to stop. See what is forming and act before the problem happens or gets worse.
+
+- Read the need before building the solution
+- Treat electrical power, compressed air, and IT as parts of the same process
+- Act on a weak signal, a drift, or a recurrence while there is still room to maneuver
+- Confirm with evidence, correct the cause, and record what was seen
 
 ## Repository
 

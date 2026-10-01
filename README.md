@@ -334,15 +334,12 @@ Cursos concluídos. A lista com emissor, data e código de credencial está em [
 
 ## Como eu trabalho
 
-- Entender o problema antes de agir
-- Trabalhar com evidências
-- Documentar o que foi visto e o que foi feito
-- Automatizar tarefa repetitiva quando isso reduz erro
-- Buscar a causa, não só o sintoma
-- Reduzir indisponibilidade com correção que se sustenta
-- Preferir solução simples de operar e de manter
-- Integrar tecnologia com a operação
-- Transformar problema recorrente em processo
+Entender o que a operação precisa e antecipar. A infraestrutura que sustenta a fábrica é uma só: rede elétrica, ar comprimido e TI. Não esperar a máquina ou o serviço parar. Ver o que está se formando e atuar antes que o problema aconteça ou se agrave.
+
+- Ler a necessidade antes de montar a solução
+- Acompanhar elétrica, ar comprimido e TI como partes do mesmo processo
+- Tratar sinal fraco, desvio e recorrência enquanto ainda há tempo de manobra
+- Confirmar com evidência, corrigir a causa e deixar registrado o que foi visto
 
 <a id="repositorio"></a>
 
